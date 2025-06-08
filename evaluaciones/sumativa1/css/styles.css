@@ -20,6 +20,12 @@ header h1 {
   font-size: 2rem;
 }
 
+.presentacion img {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 .eslogan {
   font-size: 1.2rem;
   font-style: italic;
