@@ -21,11 +21,13 @@ header h1 {
 }
 
 .presentacion img {
-  width: 400px;
-  height: auto;
+  width: 80%;
+  max-width: 600px;
   display: block;
   margin: 0 auto;
+  border-radius: 8px; /* opcional, para bordes redondeados */
 }
+
 .eslogan {
   font-size: 1.2rem;
   font-style: italic;
