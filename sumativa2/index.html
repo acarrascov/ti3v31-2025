@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raíces Digitales - Talleres Abiertos</title>
+  <link rel="stylesheet" href="css/styles.css">
+  
+
+  <!-- Fuentes sugeridas desde Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>Programa de Talleres Abiertos</h1>
+    <p class="eslogan">Expresa, crea y transforma con Raíces Digitales</p>
+  </header>
+
+  <section class="presentacion">
+    <img src="assets/arte_urbano.jpeg" alt="Arte urbano comunitario">
+  </section>
+
+  <section class="talleres">
+    <h2>Talleres Disponibles</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Danza Urbana</h3>
+        <p>Explora tu cuerpo y movimiento a través de ritmos contemporáneos.</p>
+        <p><strong>Horario:</strong> Lunes y Miércoles, 18:00 - 19:30</p>
+      </article>
+      <article class="card">
+        <h3>Teatro Comunitario</h3>
+        <p>Conecta con historias locales y expresiones colectivas.</p>
+        <p><strong>Horario:</strong> Martes y Jueves, 17:00 - 18:30</p>
+      </article>
+      <article class="card">
+        <h3>Música Urbana</h3>
+        <p>Experimenta con beats, letras y sonidos de la calle.</p>
+        <p><strong>Horario:</strong> Sábados, 10:00 - 12:00</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="contacto">
+    <h2>Inscríbete</h2>
+    <form id="formulario">
+      <label for="nombres">Nombres:</label>
+      <input type="text" id="nombres" name="nombres" required>
+
+      <label for="apellidos">Apellidos:</label>
+      <input type="text" id="apellidos" name="apellidos" required>
+
+      <label for="rut">RUT:</label>
+      <input type="text" id="rut" name="rut" placeholder="12345678-9" required>
+
+      <label for="fecha">Fecha de Nacimiento:</label>
+      <input type="text" id="fecha" name="fecha" placeholder="dd/mm/aaaa" required>
+
+      <label for="taller">Taller de interés:</label>
+      <select id="taller" name="taller" required>
+        <option value="">Selecciona una opción</option>
+        <option>Danza Urbana</option>
+        <option>Teatro Comunitario</option>
+        <option>Música Urbana</option>
+        </select>
+
+  <label for="correo">Correo electrónico:</label>
+  <input type="email" id="correo" name="correo" required>
+
+  <label for="observaciones">Observaciones (opcional):</label>
+  <textarea id="observaciones" name="observaciones"></textarea>
+
+  <button type="submit">Registrar</button>
+</form>
+
+  </section>
+  <footer>
+    <p>Contacto: talleresurbanos@raicesdigitales.cl</p>
+    <p>Síguenos: @RaicesDigitales</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
