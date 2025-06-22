@@ -34,13 +34,19 @@ header h1 {
 }
 
 /* Imagen de presentación */
-.presentacion img {
+.presentacion {
+  display: flex;
   width: 100%;
   height: auto;
+}
+
+.presentacion img {
+  width: 33.3333%;
+  height: auto;
+  object-fit: cover;
   display: block;
 }
 
-/* Sección de talleres */
 .talleres {
   padding: 2rem 1rem;
   text-align: center;
@@ -89,6 +95,13 @@ form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  display: block;
+  margin-top: 0.2rem;
 }
 
 label {

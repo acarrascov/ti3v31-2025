@@ -19,6 +19,8 @@
 
   <section class="presentacion">
     <img src="assets/arte_urbano.jpeg" alt="Arte urbano comunitario">
+    <img src="assets/serigrafia.png" alt="Serigrafía comunitaria">
+    <img src="assets/teatro.avif" alt="Teatro comunitario">
   </section>
 
   <section class="talleres">
@@ -35,9 +37,24 @@
         <p><strong>Horario:</strong> Martes y Jueves, 17:00 - 18:30</p>
       </article>
       <article class="card">
+        <h3>Taller de Estampa y Serigrafía</h3>
+        <p>Diseña y estampa afiches o ropa con mensajes creativos.</p>
+        <p><strong>Horario:</strong> Viernes, 17:00 - 18:30</p>
+      </article>
+      <article class="card">
+        <h3>Taller de Producción Musical Digital</h3>
+        <p>Crea tus propias pistas y beats desde el computador.</p>
+        <p><strong>Horario:</strong> Viernes, 18:00 - 19:30</p>
+      </article>
+      <article class="card">
         <h3>Música Urbana</h3>
         <p>Experimenta con beats, letras y sonidos de la calle.</p>
         <p><strong>Horario:</strong> Sábados, 10:00 - 12:00</p>
+      </article>
+      <article class="card">
+        <h3>Taller Muralismo</h3>
+        <p>Transforma muros en mensajes visuales. Aprende técnicas de mural colaborativo, diseño colectivo y pintura en gran formato.</p>
+        <p><strong>Horario:</strong> Sábados, 12:30 - 14:30</p>
       </article>
     </div>
   </section>
@@ -53,25 +70,31 @@
 
       <label for="rut">RUT:</label>
       <input type="text" id="rut" name="rut" placeholder="12345678-9" required>
+      <span id="error-rut" class="error"></span>
 
       <label for="fecha">Fecha de Nacimiento:</label>
       <input type="text" id="fecha" name="fecha" placeholder="dd/mm/aaaa" required>
+      <span id="error-fecha" class="error"></span>
 
       <label for="taller">Taller de interés:</label>
       <select id="taller" name="taller" required>
         <option value="">Selecciona una opción</option>
         <option>Danza Urbana</option>
         <option>Teatro Comunitario</option>
+        <option>Taller de Estampa y Serigrafía</option>
+        <option>Taller de Producción Musical Digital</option>
         <option>Música Urbana</option>
+        <option>Taller Muralismo</option>
         </select>
 
-  <label for="correo">Correo electrónico:</label>
-  <input type="email" id="correo" name="correo" required>
+      <label for="correo">Correo electrónico:</label>
+      <input type="text" id="correo" name="correo" required>
+      <span id="error-correo" class="error"></span>
 
-  <label for="observaciones">Observaciones (opcional):</label>
-  <textarea id="observaciones" name="observaciones"></textarea>
+      <label for="observaciones">Observaciones (opcional):</label>
+      <textarea id="observaciones" name="observaciones"></textarea>
 
-  <button type="submit">Registrar</button>
+      <button type="submit">Registrar</button>
 </form>
 
   </section>
