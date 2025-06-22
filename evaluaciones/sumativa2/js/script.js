@@ -7,6 +7,7 @@ document.getElementById("formulario").addEventListener("submit", function (e) {
 
   if (validarFormulario()) {
     alert("Formulario enviado con éxito"); // Aquí puedes reemplazar por mensaje visual si prefieres
+    formulario.reset(); // Reiniciar el formulario
   }
 });
 
@@ -17,6 +18,7 @@ function validarFormulario() {
   const fecha = document.getElementById("fecha");
   const correo = document.getElementById("correo");
 
+  // Validar RUT
   if (!validarRUT(rut.value.trim())) {
     document.getElementById("error-rut").textContent = "RUT inválido.";
     rut.classList.add("input-error");
