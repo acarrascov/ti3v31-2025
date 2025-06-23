@@ -26,7 +26,7 @@ function validarFormulario() {
   }
 
   if (!validarFecha(fecha.value.trim())) {
-    document.getElementById("error-fecha").textContent = "Debe tener al menos 14 años.";
+    document.getElementById("error-fecha").textContent = "Debe tener al menos 14 años. O revise datos ingresados mm/dd/yyyy.";
     fecha.classList.add("input-error");
     valido = false;
   }
