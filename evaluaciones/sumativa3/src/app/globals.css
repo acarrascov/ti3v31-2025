@@ -1,0 +1,9 @@
+/* Se incorpota TailwindCSS a la plantilla */
+@import "tailwindcss";
+
+/* Se importan las familias de componentes de Tailwind a utilizar */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
