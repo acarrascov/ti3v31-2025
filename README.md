@@ -1,21 +1,21 @@
 # Registro de Talleres – Raíces Digitales
 
-Proyecto académico desarrollado en INACAP (Asignatura TI3V31 – Desarrollo Frontend) cuyo objetivo es permitir la inscripción en línea de estudiantes a talleres artísticos de la cooperativa **Raíces Digitales**.
+Proyecto académico desarrollado en INACAP (Asignatura TI3V31 – Desarrollo Frontend) cuyo objetivo es implementar un sistema web sencillo para el **registro de talleres artísticos** de la cooperativa *Raíces Digitales*.  
+
+Se trabajó con **HTML5, CSS3 y JavaScript**, aplicando buenas prácticas de diseño responsivo y manejo de formularios.  
 
 ## 🚀 Tecnologías utilizadas
-- **HTML5** y **CSS3 / Tailwind CSS** → para la interfaz web responsiva y semántica.  
-- **JavaScript** → validación de formularios y manejo de eventos.  
-- **Firebase Firestore** → almacenamiento en la nube de los registros de estudiantes.  
+- **HTML5 + CSS3 (Tailwind CSS)** → estructura semántica y diseño responsivo.  
+- **JavaScript** → validación de formularios y consumo de API.  
 
 ## ✨ Funcionalidades principales
-- Formulario de inscripción con validaciones (nombre, apellido, RUT, fecha de nacimiento, correo electrónico y taller de interés).  
-- Restricción de edad (mayores de 14 años).  
-- Registro automático en Firestore y visualización de los datos en tablas dinámicas.  
-- Diseño web accesible y responsivo.  
+- **Página 1:** Formulario de inscripción con validaciones (nombre, apellido, RUT, fecha de nacimiento, correo electrónico y taller de interés).  
+- **Página 2:** Visualización de inscripciones (listado de talleres y participantes).  
+- **Página 3:** Consumo de API externa para mostrar información dinámica (ejemplo: talleres/artistas simulados con datos obtenidos desde la API).  
 
 ## 📌 Estado del proyecto
 Proyecto académico entregado como **Evaluación Sumativa 2 y 3** de la asignatura TI3V31.  
-Se encuentra funcional, con posibilidad de futuras mejoras y ampliaciones.  
+Se encuentra funcional y cumple los requerimientos de validación de formularios, diseño responsivo y consumo de API.  
 
 ## 🧑‍💻 Autor
 Andrés Carrasco Valdés – Estudiante Analista Programador, INACAP.
